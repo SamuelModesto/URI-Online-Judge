@@ -24,7 +24,7 @@ public class EX_1002 {
 		A = n * (R*R);
 			
 		NumberFormat formatter = new DecimalFormat("#.####");
-		System.out.println("A = " + formatter.format(A));
+		System.out.println("A = " + formatter.format(A)); 
 		
 	}
 
