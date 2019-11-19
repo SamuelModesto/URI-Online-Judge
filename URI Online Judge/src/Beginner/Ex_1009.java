@@ -25,7 +25,6 @@ public class Ex_1009 {
 		NumberFormat formatter = new DecimalFormat("#.00");
 		
 		System.out.println("TOTAL = R$ " + formatter.format(total));
-		
 
 	}
 

@@ -17,9 +17,6 @@ public class Ex_1008 {
 		double horasTrabalhadas;
 		double salario;
 		
-//		numFuncionario = Integer.parseInt(input.readLine());
-//		valorHora = Integer.parseInt(input.readLine());
-//		horasTrabalhadas = Double.parseDouble(input.readLine());
 		
 		Scanner entrada = new Scanner(System.in);		
 		System.out.println("type the values: ");

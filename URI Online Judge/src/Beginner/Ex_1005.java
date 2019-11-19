@@ -16,10 +16,6 @@ public class Ex_1005 {
 		a = Double.parseDouble(input.readLine());
 		b = Double.parseDouble(input.readLine());
 		
-//		Scanner entrada = new Scanner(System.in);
-//		System.out.println("type the values: ");		
-//		a = entrada.nextDouble();
-//		b = entrada.nextDouble();
 		
 		media = ((3.5 * a) + (7.5 * b))/11;
 		

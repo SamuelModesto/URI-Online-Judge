@@ -16,10 +16,6 @@ public class EX_1003 {
 		a = Integer.parseInt(input.readLine());
 		b = Integer.parseInt(input.readLine());
 		
-//		Scanner entrada = new Scanner(System.in);
-//		System.out.println("type the values: ");
-//		a = entrada.nextInt();
-//		b = entrada.nextInt();
 		
 		soma = a + b;
 		

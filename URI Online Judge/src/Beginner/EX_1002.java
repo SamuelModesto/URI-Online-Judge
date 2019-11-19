@@ -17,9 +17,6 @@ public class EX_1002 {
 		
 		R = Double.parseDouble(input.readLine());
 		
-//		Scanner entrada = new Scanner(System.in);		
-//		System.out.println("type the values: ");	
-//		R = entrada.nextDouble();
 		
 		A = n * (R*R);
 			

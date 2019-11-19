@@ -15,12 +15,7 @@ public class Ex_1001 {
 		
 		A = Integer.parseInt(input.readLine());
 		B = Integer.parseInt(input.readLine());
-		
-//	    TESTES		
-//		Scanner entrada = new Scanner(System.in);		
-//		System.out.println("type the values: ");
-//		A = entrada.nextInt();
-//		B = entrada.nextInt();
+
 		
 		X = A + B;
 		
