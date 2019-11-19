@@ -9,6 +9,7 @@ public class Ex_1012 {
 
 		double a, b, c;
 		double pi = 3.14159;
+		
 		// Leitura dos dados
 		a = input.nextDouble();
 		b = input.nextDouble();
