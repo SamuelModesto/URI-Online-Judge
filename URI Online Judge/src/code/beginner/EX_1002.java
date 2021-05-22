@@ -1,25 +1,28 @@
-package Beginner;
+package code.beginner;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 //import java.util.Scanner;
 
-public class EX_1003 {
-
+public class EX_1002 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		
 		InputStreamReader inputReader = new InputStreamReader(System.in);
 		BufferedReader input = new BufferedReader(inputReader);
 		
-		int a, b, soma;
 		
-		a = Integer.parseInt(input.readLine());
-		b = Integer.parseInt(input.readLine());
+		double n = 3.14159;
+		double A, R;
+		
+		R = Double.parseDouble(input.readLine());
 		
 		
-		soma = a + b;
+		A = n * (R*R);
+			
+		NumberFormat formatter = new DecimalFormat("#.####");
+		System.out.println("A = " + formatter.format(A)); 
 		
-		System.out.println("SOMA = " + soma);
 	}
 
 }
