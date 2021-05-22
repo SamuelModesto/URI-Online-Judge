@@ -1,4 +1,4 @@
-package Beginner;
+package code.beginner;
 
 import java.io.IOException;
 import java.util.Scanner;
